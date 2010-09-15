@@ -1,0 +1,3 @@
+== METRO DF ==
+
+I'm using raphaël.js (http://raphaeljs.com) to build an interactive visualization map of the Mexico City Metro system. The idea is to substitute the ugly and plain PDF version we have with something that can provide more insightful information to the users but without relying on any plugin technology such as Adobe Flash.
