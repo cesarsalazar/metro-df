@@ -16,7 +16,7 @@ $(function(){
             ,'stroke-linejoin': 'round'
             ,'stroke-linecap': 'round'
 	});
-	var l3= metro.path("m 311.92801,139.06103 -5.97963,19.49879 -49.39693,62.91608 -24.1785,58.75635 -0.77995,25.21844 -11.1793,57.45643 -4.67972,26.51835 -12.21923,20.53873 -7.53954,75.39531 -6.75957,28.07825 -44.45724,76.95522 -20.27875,23.65854 -5.19968,27.29829 6.23962,16.11901 8.74753,1.43779 1.00974,15.91939 7.14167,7.0813 0,16.89895");
+	var l3 = metro.path("m 311.92801,139.06103 -5.97963,19.49879 -49.39693,62.91608 -24.1785,58.75635 -0.77995,25.21844 -11.1793,57.45643 -4.67972,26.51835 -12.21923,20.53873 -7.53954,75.39531 -6.75957,28.07825 -44.45724,76.95522 -20.27875,23.65854 -5.19968,27.29829 6.23962,16.11901 8.74753,1.43779 1.00974,15.91939 7.14167,7.0813 0,16.89895");
 	l3.attr({
 		    'stroke': '#7E9426',
             'stroke-width': 5
@@ -53,14 +53,14 @@ $(function(){
             ,'stroke-linecap': 'round'
 	});
 	
-	var l8= metro.path("m 489.94781,632.5998 -80.15264,-38.97331 -6.43429,-6.25043 -6.71002,-1.51665 -30.56279,7.49132 -11.25937,1.13341 -5.14802,-1.22532 -9.55949,-9.92717 -2.94139,-13.23621 6.25044,-32.72288 -15.99376,-61.03365 -0.36767,-20.58967 -23.53106,-20.95735 -44.01599,-11.21104 -23.81961,-13.42302 1.28685,-31.80369 5.88277,-14.1554 8.27263,-66.73259");
+	var l8 = metro.path("m 489.94781,632.5998 -80.15264,-38.97331 -6.43429,-6.25043 -6.71002,-1.51665 -30.56279,7.49132 -11.25937,1.13341 -5.14802,-1.22532 -9.55949,-9.92717 -2.94139,-13.23621 6.25044,-32.72288 -15.99376,-61.03365 -0.36767,-20.58967 -23.53106,-20.95735 -44.01599,-11.21104 -23.81961,-13.42302 1.28685,-31.80369 5.88277,-14.1554 8.27263,-66.73259");
 	l8.attr({
 		    'stroke': '#009A68',
             'stroke-width': 5
             ,'stroke-linejoin': 'round'
             ,'stroke-linecap': 'round'
 	});
-	var l9= metro.path("m 104.30512,442.1913 25.32347,-11.25997 71.78677,-1.72835 31.89691,-2.86755 26.20949,-2.75458 44.10792,-1.97922 24.83368,0.6467 29.48996,3.35175 45.38622,0.40113 19.42705,3.33632 11.66266,-0.0607 15.83941,-26.28345");
+	var l9 = metro.path("m 104.30512,442.1913 25.32347,-11.25997 71.78677,-1.72835 31.89691,-2.86755 26.20949,-2.75458 44.10792,-1.97922 24.83368,0.6467 29.48996,3.35175 45.38622,0.40113 19.42705,3.33632 11.66266,-0.0607 15.83941,-26.28345");
 	l9.attr({
 		    'stroke': '#542917',
             'stroke-width': 5
@@ -68,7 +68,7 @@ $(function(){
             ,'stroke-linecap': 'round'
 	});
 	
-	var la= metro.path("m 450.26866,402.99337 6.95628,32.1662 74.82139,45.95909 40.444,148.53977 33.09054,10.66249");
+	var la = metro.path("m 450.26866,402.99337 6.95628,32.1662 74.82139,45.95909 40.444,148.53977 33.09054,10.66249");
 	la.attr({
 		    'stroke': '#8A2495',
             'stroke-width': 5
@@ -90,9 +90,9 @@ $(function(){
             ,'stroke-linecap': 'round'
 	});
 	
-	//Estaciones
+	
 
-	//linea 1	
+	//l1	
 	var observatorio = metro.circle(66.31,452.186,2.8571429).attr("fill","#FFF");
 	var lblObservatorio = metro.text(66.31,462.186,"Observatorio").attr({'font-size': 7});	
 	
@@ -138,22 +138,18 @@ $(function(){
 	var zaragoza = metro.circle(422.886,413.497,2.8571429).attr("fill","#FFF");
 	var lblZaragoza = metro.text(408.866,418.497,"Zaragoza").attr({'font-size': 7});		
 	
-	///// linea 2
+	//l2
 	var cuatroCaminos = metro.circle(20.736,255.723,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Cuatro Caminos", "id": "cuatroCaminos"});
 	var lblCuatroCaminos = metro.text(25.726,243.723,"Cuatro\nCaminos").attr({'font-size': 7});
 	
 	var panteones = metro.circle(52.736,256.723,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Panteones", "id": "panteones"});
 	var lblPanteones = metro.text(62.736,248.723,"Panteones").attr({'font-size': 7});
 	
 	var cuitlahuac = metro.circle(126.736,267.723,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Cuitlahuac", "id": "cuitlahuac"});
 	var lblCuitlahuac = metro.text(140.736,260.723,"Cuitlahuac").attr({'font-size': 7});
 
 
 	var popotla = metro.circle(141.736,280.723,2.8571429).attr("fill", "#FFF");
-	$("circle").last().attr({"name": "Popotla", "id": "popotla"});
 	var lblPotla = metro.text(156.736,276.723,"Popotla").attr({'font-size': 7});
 	
 	var colegioMilitar = metro.circle(155.769,294.555,2.8571429).attr("fill","#FFF");
@@ -214,7 +210,7 @@ $(function(){
 	var tasqueña = metro.circle(240.488,629.3,2.8571429).attr("fill","#FFF");
 	var lblTasqueña = metro.text(253.488,621.3,"Tasqueña").attr({'font-size':7});
 
-	//linea 3	
+	//l3	
 	var indiosVerdes = metro.circle(309.978,144.487,2.8571429).attr("fill","#FFF");
 	var lblIndiosVerdes = metro.text(339.978,144.487,"Indios Verdes").attr({'font-size':7});
 	
@@ -269,7 +265,7 @@ $(function(){
 	var universidad = metro.circle(142.402,691.031,2.8571429).attr("fill","#FFF");
 	var lblUniversidad = metro.text(165.402,691.031,"Universidad").attr({'font-size': 7});	
 	
-	//linea 4	
+	//l4	
 	var talisman = metro.circle(343.75,212.624,2.8571429).attr("fill","#FFF");
 	var lblTalisman = metro.text(363.75,212.624,"Talisman").attr({'font-size': 7});	
 	
@@ -295,7 +291,7 @@ $(function(){
 	var lblStaAnita = metro.text(328.98,434.944,"Santa Anita").attr({'font-size': 7});	
 	
 
-	//linea 5
+	//l5
 	var politecnico = metro.circle(220.777,126.7,2.8571429).attr("fill","#FFF");
 	var lblPolitecnico = metro.text(243.777,126.7,"Politécnico").attr({'font-size': 7});
 	
@@ -332,21 +328,17 @@ $(function(){
 	var pantitlan  = metro.circle(450.773,403.141,4.1037445).attr("fill","#FFF");
 	var lblPantitlan = metro.text(472.773,403.141,"Pantitlán").attr({'font-size': 7});
 	
-	/////linea 6	
+	//l6	
 	var tezozomoc = metro.circle(90.095,145.869,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Tezozomoc", "id": "tezozomoc"});
 	var lblCamarones = metro.text(110.095,140.869,"Tezozomoc").attr({'font-size': 7});	
 	
 	var azcapotzalco = metro.circle(108.724,160.468,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Azcapotzalco", "id": "azcapotzalco"});
 	var lblAzcapotzalco = metro.text(118.734,171.468,"Azcapotzalco").attr({'font-size': 7});
 	
 	var ferreria = metro.circle(146.422,157.088,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Ferreria", "id": "ferreria"});
 	var lblFerreria = metro.text(146.422,165.088,"Ferreria").attr({'font-size': 7});
 	
-	var norte45 = metro.circle(184.990,165.953,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Norte 45", "id": "norte45"});
+	var norte45 = metro.circle(184.990,165.953,2.8571429).attr("fill","#fff");	
 	var lblNorte45 = metro.text(184.990,171.953,"Norte 45").attr({'font-size': 7});
 	
 	var vallejo = metro.circle(201.018,158.418,2.8571429).attr("fill","#FFF");
@@ -367,29 +359,23 @@ $(function(){
 	var martinCarrera  = metro.circle(354.603,179.318,4.1037445).attr("fill","#FFF");
 	var lblMartinCarrera = metro.text(382.603,185.318,"Martin Carrera").attr({'font-size': 7});	
 	
-	///// linea 7
-	var rosario = metro.circle(71.346,120.458,4.1037445).attr("fill","#fff");
-	$("circle").last().attr({"name": "Rosario", "id": "rosario"});
+	//l7
+	var rosario = metro.circle(71.346,120.458,4.1037445).attr("fill","#fff");	
 	var lblRosario = metro.text(51.346,115.458, 'Rosario').attr({'font-size': 7});
 	
 	var aquilesSerdan = metro.circle(82.110,157.197,2.8571429).attr("fill","#fff");	
-	$("circle").last().attr({"name": "Aquiles Serdan", "id": "aquiles"});
 	var lblAquilesSerdan = metro.text(62.110,157.197, 'Aquiles\nSerdan').attr({'font-size': 7});
 	
 	var camarones = metro.circle(100.125,194.953,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Camarones", "id": "camarones"});
 	var lblCamarones = metro.text(122.125,194.953, 'Camarones').attr({'font-size': 7});
 	
 	var refineria = metro.circle(97.736,223.723,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "Refineria", "id": "refineria"});
 	var lblRefineria = metro.text(117.736,223.723,'Refineria').attr({'font-size': 7});
 	
 	var tacuba = metro.circle(94.736,257.723,4.1037445).attr("fill","#fff");
-	$("circle").last().attr({"name": "Tacuba", "id": "tacuba"});
 	var lblTacuba = metro.text(109.736,252.723, 'Tacuba').attr({'font-size': 7});	
 	
-	var sanJoaquin = metro.circle(91.095,305.869,2.8571429).attr("fill","#fff");
-	$("circle").last().attr({"name": "San Joaquin", "id": "sanJoaquin"});
+	var sanJoaquin = metro.circle(91.095,305.869,2.8571429).attr("fill","#fff");	
 	var lblSanJoaquin = metro.text(105.095,307.869,"San\nJoaquin").attr({'font-size': 7});
 	
 	var polanco = metro.circle(92.958,340.952,2.8571429).attr("fill", "#FFF");
@@ -416,7 +402,7 @@ $(function(){
 	var barrancaMuerto = metro.circle(96.598,570.412,2.8571429).attr("fill","#FFF");
 	var lblBarrancaMuerto = metro.text(116.598,570.412,"Barranca\ndel Muerto").attr({'font-size': 7});		
 	
-	//// linea 8	
+	//l8	
 	var snJuanLetran = metro.circle(244.921,349.441,2.8571429).attr("fill","#FFF");
 	var lblSnJuanLetran = metro.text(256.921,350.441,"San Juan\nde Letrán").attr({'font-size': 4});
 	
@@ -456,7 +442,7 @@ $(function(){
 	var const1917 = metro.circle(481.162,628.218,2.8571429).attr("fill","#FFF");
 	var lblConst1917 = metro.text(447.162,632.218,"Const. de 1917").attr({'font-size': 7});
 		
-	//// linea 9	
+	//l9	
 	var patriotismo = metro.circle(129.746,430.867,2.8571429).attr("fill","#FFF");
 	var lblPatriotismo = metro.text(139.746,422.867,"Patriotismo").attr({'font-size': 7});	
 	
@@ -478,7 +464,7 @@ $(function(){
 	var puebla = metro.circle(428.217,429.123,2.8571429).attr("fill","#FFF");
 	var lblPuebla = metro.text(428.217,436.123,"Puebla").attr({'font-size': 6});	
 	
-	////linea b	
+	//lb	
 	var buenavista = metro.circle(211.842,302.275,2.8571429).attr("fill","#FFF");
 	var lblBuenavista = metro.text(211.842,292.275,"Buenavista").attr({'font-size': 7});	
 	
@@ -530,7 +516,7 @@ $(function(){
 	var cdAzteca = metro.circle(587.031,18.314,2.8571429).attr("fill","#FFF");
 	var lblCdAzteca = metro.text(615.031,18.314,"Ciudad Azteca").attr({'font-size': 7});	
 		
-	////linea a	
+	//la	
 	var agricolaOriental = metro.circle(457.079,434.822,2.8571429).attr("fill","#FFF");
 	var lblArgricolaOriental = metro.text(492.079,434.822,"Agrícola Oriental").attr({'font-size': 7});
 	
@@ -558,7 +544,7 @@ $(function(){
 	var laPaz = metro.circle(593.486,635.755,2.8571429).attr("fill","#FFF");
 	var lblLaPaz = metro.text(618.505,635.755,"La Paz").attr({'font-size': 7});
 	
-	////linea 12	
+	//l12	
 	var insurgentesSur = metro.circle(126.236,535.264,2.8571429).attr("fill","#FFF");
 	var lblInsurgentesSur = metro.text(126.236,520.264,"Insurgentes\nSur").attr({'font-size': 7});
 	
